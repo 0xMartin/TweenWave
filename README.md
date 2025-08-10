@@ -59,17 +59,8 @@ Note: exact pin mapping and signals are shown in the schematic below.
 
 ## ESP32 Marauder (short guide)
 
-- Project: https://github.com/justcallmekoko/ESP32Marauder
-- Typical flashing flow (adjust per Marauder docs and your OS/ports):
-    ```
-    esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 921600 write_flash -z \
-        0x1000 bootloader.bin \
-        0x8000 partitions.bin \
-        0x10000 marauder.bin
-    ```
-- Enter bootloader using BOOT/EN pads or buttons provided on the board, then reset and open a serial terminal to confirm logs.
-
-Always follow Marauder’s official instructions for correct binaries and offsets.
+- Clone this repository: [SkeletonMan03/FZEasyMarauderFlash](https://github.com/SkeletonMan03/FZEasyMarauderFlash)
+- Follow the instructions in the repository to flash the firmware.
 
 ---
 
