@@ -2,7 +2,6 @@
 
 [![Radios: Wi‑Fi 2.4 GHz + 433 MHz](https://img.shields.io/badge/Radios-Wi%E2%80%91Fi%202.4%E2%80%89GHz%20%2B%20433%E2%80%89MHz-1f7a8c?style=for-the-badge)](#features)
 [![ESP32 Marauder Supported](https://img.shields.io/badge/ESP32-Marauder%20supported-ff6f00?style=for-the-badge)](https://github.com/justcallmekoko/ESP32Marauder)
-[![License: Non‑Commercial | No Warranty](https://img.shields.io/badge/License-Non--Commercial%20%7C%20No%20Warranty-critical?style=for-the-badge)](#license-and-disclaimer)
 [![Designed in EasyEDA](https://img.shields.io/badge/PCB%20designed%20in-EasyEDA-0aa8f0?style=for-the-badge)](#)
 [![Rendered with Blender](https://img.shields.io/badge/Case%20designed%20in-Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white)](#)
 
