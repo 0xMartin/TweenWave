@@ -99,6 +99,35 @@ Note: exact pin mapping and signals are shown in the schematic below.
 
 ---
 
+## Part list
+
+| Comment                  | Designator                      | Footprint                        | JLCPCB Part #      |
+|--------------------------|---------------------------------|----------------------------------|--------------------|
+| 15pF                     | C39, C40                        | C0402                            | C106997            |
+| 8.2pF                    | C32                             | C0402                            | C327205            |
+| 56kΩ                     | R32                             | R0402                            | C25796             |
+| TS-1088-AR02016          | BOOT, RESET                     | SW-SMD_L3.9-W3.0-P4.45           | C720477            |
+| 220pF                    | C31, C34                        | C0402                            | C107001            |
+| 22nH                     | L4                              | L0402                            | C12670             |
+| 10K                      | R24, R25                        | R0603                            | C137819            |
+| 26MHz                    | X5                              | CRYSTAL-SMD_4P-L3.2-W2.5-BL      | C15192             |
+| 1.2pF                    | C12                             | C0201                            | C85895             |
+| 100uF                    | C23, C24, C25, C26              | CASE-B_3528                      | C16133             |
+| 1.5pF                    | C35                             | C0201                            | C161414            |
+| -                        | RF3, RF4                        | SMA-SMD_BWSMA-KE-P001            | C496550            |
+| 470Ω                     | R28, R29, R31, R33              | R0402                            | C25117             |
+| 5.6pF                    | C33                             | C0402                            | C505468            |
+| 27nH                     | L6, L7, L8                      | L0402-RD                         | C12669             |
+| 100nF                    | C9, C15, C22, C36               | C0603                            | C14663             |
+| CC1101RGPR               | U5                              | QFN-20_L4.0-W4.0-P0.5-TL-EP      | C29953             |
+| 100nF                    | C27, C28                        | C0402                            | C60474             |
+| ESP32-PICO-V3-02         | U4                              | QFN-48_L7.0-W7.0-P0.50-BL-EP5.1  | C908392            |
+| MK-12D18-G020            | SW3, SW4                        | SW-TH_MK-12D18-G040              | C3019727           |
+| 10uF                     | C10, C14                        | C0603                            | C85713             |
+| 1.8nH                    | L9                              | L0201-RD                         | C98040             |
+| 3.9pF                    | C29, C30                        | C0402                            | C1566              |
+| TZ-P2-0402RTIA1-0.45T    | LED4, LED5, RX, TX              | LED0402-RD_RED                   | C779449            |
+
 ## Author
 
 - 0xM4R71N
