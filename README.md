@@ -12,6 +12,10 @@
 
 A compact GPIO add‑on for Flipper Zero that combines 2.4 GHz Wi‑Fi and 433 MHz Sub‑GHz into one small board. Perfect for lab experiments, RF tinkering, and extending Flipper’s connectivity.
 
+> **ℹ️ NOTE ℹ️** 
+>
+> Gerber files, Bill of Materials (BOM), and Pick and Place data for manufacturing the GPIO Wi‑Fi + Sub‑GHz Module for Flipper Zero are located in the [./export](./export) directory of this repository.
+
 ---
 
 ## Highlights
