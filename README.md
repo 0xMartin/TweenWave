@@ -72,8 +72,6 @@ Note: exact pin mapping and signals are shown in the schematic below.
     <img src="doc/pcb2.png" alt="PCB – 3D/side view" width="49%"/>
 </p>
 
-> All renders are available under doc/render/.
-
 ---
 
 ## RF, Safety, and Compliance
