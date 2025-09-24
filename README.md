@@ -56,8 +56,33 @@ Note: exact pin mapping and signals are shown in the schematic below.
 
 ## ESP32 Marauder (short guide)
 
-- Clone this repository: [SkeletonMan03/FZEasyMarauderFlash](https://github.com/SkeletonMan03/FZEasyMarauderFlash)
-- Follow the instructions in the repository to flash the firmware.
+The firmware for this module is located in the `Firmware` directory of this repository. It is a fixed version of Marauder 1.8.6, modified to compile and upload for the ESP32-PICO-V3-02 chip used in this device. The project uses PlatformIO for building and flashing.
+
+Precompiled `.bin` files are available in the repository releases as `MARAUDER_v1.8.6_ESP32_PICO_V3_02.zip`. The release contains:
+- `bootloader.bin`
+- `firmware.bin`
+- `firmware.elf`
+- `partitions.bin`
+
+### Flashing precompiled binaries
+
+1. Connect your ESP32-PICO-V3-02 module via USB-TTL to your computer.
+2. Use [esptool.py](https://github.com/espressif/esptool) or similar tool to flash the binaries:
+    ```sh
+    esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x1000 bootloader.bin 0x8000 partitions.bin 0x10000 firmware.bin
+    ```
+    Adjust the serial port as needed.
+
+### Building and flashing with PlatformIO
+
+1. Install [PlatformIO](https://platformio.org/) (VS Code extension or CLI).
+2. Open the `Firmware` folder in PlatformIO.
+3. Select the correct environment for ESP32-PICO-V3-02.
+4. Click "Build" to compile the firmware.
+5. Click "Upload" to flash directly to the chip.
+
+For more details, see the PlatformIO documentation or the Marauder firmware README.
+
 
 ---
 
