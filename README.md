@@ -1,16 +1,34 @@
-# GPIO Wi‑Fi + Sub‑GHz Module for Flipper Zero 🔌📡
+# TweenWave 🔌📡
+#### GPIO Wi‑Fi + Sub‑GHz Module for Flipper Zero
+
+[![PCB v2.0](https://img.shields.io/badge/PCB%20rev-v2.0-4caf50?style=for-the-badge)](#)
+[![Firmware: Marauder 1.8.6](https://img.shields.io/badge/Firmware-Marauder%201.8.6-1976d2?style=for-the-badge)](#)
 
 [![Radios: Wi‑Fi 2.4 GHz + 433 MHz](https://img.shields.io/badge/Radios-Wi%E2%80%91Fi%202.4%E2%80%89GHz%20%2B%20433%E2%80%89MHz-1f7a8c?style=for-the-badge)](#features)
 [![ESP32 Marauder Supported](https://img.shields.io/badge/ESP32-Marauder%20supported-ff6f00?style=for-the-badge)](https://github.com/justcallmekoko/ESP32Marauder)
 [![Designed in EasyEDA](https://img.shields.io/badge/PCB%20designed%20in-EasyEDA-0aa8f0?style=for-the-badge)](#)
-[![Rendered with Blender](https://img.shields.io/badge/Case%20designed%20in-Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white)](#)
-
-<p align="center">
-    <img src="doc/product_1.png" alt="GPIO Module – product photo 1" width="48%"/>
-    <img src="doc/product_2.png" alt="GPIO Module – product photo 2" width="48%"/>
-</p>
 
 A compact GPIO add‑on for Flipper Zero that combines 2.4 GHz Wi‑Fi and 433 MHz Sub‑GHz into one small board. Perfect for lab experiments, RF tinkering, and extending Flipper’s connectivity.
+
+<table>
+    <tr>
+        <td align="center" width="50%">
+            <img src="doc/final_1.jpg" alt="Real photo of TweenWave" width="95%"/><br/>
+            <sub>Actual TweenWave module (real photo)</sub>
+        </td>
+        <td align="center" width="50%">
+            <img src="doc/render_1.jpg" alt="Render of TweenWave" width="95%"/><br/>
+            <sub>3D render of TweenWave (not a real photo)</sub>
+        </td>
+    </tr>
+</table>
+
+The module is designed to be as compact as possible, with replaceable antennas and the ability to remain permanently installed in the port.  
+Two micro switches allow you to activate or deactivate the Wi‑Fi and Sub‑GHz radios, preventing unnecessary power draw when not in use.
+
+> Photo of the TweenWave module plugged directly into the Flipper Zero GPIO port.  
+
+<img src="doc/final_2.jpg" alt="Real photo of TweenWave" width="100%"/><br/>
 
 > **ℹ️ NOTE ℹ️** 
 >
