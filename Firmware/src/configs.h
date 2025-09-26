@@ -33,6 +33,8 @@
 
 #define DUAL_BAND_CHANNELS 51
 
+#define HAS_PSRAM
+
 //// HARDWARE NAMES
 #ifdef MARAUDER_M5STICKC
 #define HARDWARE_NAME "M5Stick-C Plus"
