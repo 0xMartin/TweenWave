@@ -1,14 +1,6 @@
-# Name,   Type, Subtype, Offset,   Size,  Flags
-# nvs,    data, nvs,     0x9000,   0x6000
-# otadata,data, ota,     0xf000,   0x2000
-# app0,   app,  ota_0,   0x10000,  0x380000
-# app1,   app,  ota_1,   0x390000, 0x380000
-# spiffs, data, spiffs,  0x710000, 0x180000
-# coredump, data, coredump, 0x890000, 0x10000
-#
-# Name, Type, Subtype, Offset,   Size,   Flags
-nvs,      data, nvs,     0x9000,    0x5000,
-otadata,  data, ota,     0xe000,    0x2000,
-app0,     app,  ota_0,   0x10000,   0x320000,
-app1,     app,  ota_1,   0x330000,  0x320000,
-spiffs,   data, spiffs,  0x650000,  0x150000,
+# Name,   Type, Subtype, Offset,     Size,    Flags
+nvs,      data, nvs,     0x9000,     0x5000,
+otadata,  data, ota,     0xe000,     0x2000,
+ota_0,    app,  ota_0,   0x10000,    0x320000,
+ota_1,    app,  ota_1,   0x330000,   0x320000,
+spiffs,   data, spiffs,  0x650000,   0x150000,
